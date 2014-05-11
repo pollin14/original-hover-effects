@@ -18,14 +18,23 @@ module.exports = function(grunt) {
 				dest: '',
 				ext: '.min.css'
 			}
+		},
+		copy: {
+			main:{
+				expand: true,
+    			cwd: 'src/css/images/', // Con esto se evita copiar la estructura de directorio fuente.
+    			src: '*',
+				dest: 'dist/css/images/',
+			}
 		}
 	});
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-concat');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
   // Default task(s).
-  grunt.registerTask('default', ['concat','cssmin']);
+  grunt.registerTask('default', ['concat','cssmin','copy']);
 
 };
