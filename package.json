@@ -1,5 +1,5 @@
 {
-  "name": "OriginalHoverEffects",
+  "name": "original-hover-effects",
   "version": "1.0.0",
   "description": "Hover effects that use css3 transitions. Created by Alessio Atzeni and package for Victor Aguilar",
   "main": "Gruntfile.js",
