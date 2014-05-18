@@ -1,18 +1,18 @@
 {
-    "name": "original-hover-effets",
-    "version": "0.0.1",
-    "main": "dist/original-hover-effects.css",
-    "ignore": [ 
-        "src",
-        "demo",        
-        ".gitignore",
-        "bower.json",
-        "gruntfile.js",
-        "package.json",
-        "README.md"
-    ],
-    "dependencies": {
-    },
-    "devDependencies": {
-    }
+  "name": "original-hover-effets",
+  "version": "0.0.1",
+  "main": "dist/original-hover-effects.css",
+  "ignore": [
+    "src",
+    "demo",
+    ".gitignore",
+    "bower.json",
+    "gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "dependencies": {
+    "original-hover-effects": "1.0.*"
+  },
+  "devDependencies": {}
 }
